@@ -1,3 +1,5 @@
 #! /bin/sh
 #echo "$*"
-pico2wave -w=/home/ubuntu/ros/sound/talk.wav "$*"
+DIR=$(cd $(dirname $0); pwd)
+ow=voice.wav
+pico2wave -w=$DIR/$ow "$*"

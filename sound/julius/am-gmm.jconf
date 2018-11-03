@@ -3,7 +3,6 @@
 ##
 
 # ‰¹‹¿ƒ‚ƒfƒ‹: GMM-HMM
--w word.dic
 -h model/phone_m/jnas-tri-3k16-gid.binhmm
 -hlist model/phone_m/logicalTri-3k16-gid.bin
 

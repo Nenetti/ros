@@ -1,0 +1,37 @@
+ros.dir	ros
+ros.sound.dir	ros/sound
+ros.image.dir	ros/image
+	
+sound.julius.dir	ros/sound/julius
+julius.dictionary.dir	ros/sound/julius/dictionary
+sound.se.dir	ros/sound/SE
+	
+	
+	
+	
+julius.session	session.csv
+julius.language	English
+julius.en.jconf	session_en.jconf
+julius.jp.jconf	session_jp.jconf
+julius.en.host	localhost
+julius.en.port	10500
+julius.jp.host	localhost
+julius.jp.port	10501
+	
+	
+SE.Active	active3.wav
+SE.Cancel	cancel.wav
+SE.Question	question.wav
+SE.Error	error3.wav
+	
+Response.en.Repeat	OK, Please repeat once more your question.
+Response.en.NoAnswer	Sorry, I can't answer your question.
+Response.en.Question	Sorry,, Are you Said,,, $ , Yes or No.
+Response.en.Caution	Sorry, Please answer with, Yes or No.
+Response.en.OK	OK,, 
+	
+Response.jp.Repeat	OK。もう一度繰り返してください
+Response.jp.NoAnswer	すいません。その質問には答えられません
+Response.jp.Question	すいません。あなたは  、と言いましたか？ 
+Response.jp.Caution	イエスかノーで答えてください
+Response.jp.OK	OK,, 

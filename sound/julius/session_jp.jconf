@@ -1,4 +1,4 @@
--w dictionary/word_en.dic
+-w dictionary/session_jp.dic
 -v model/lang_m/bccwj.60k.htkdic
 -hlist model/phone_m/logicalTri
 -n 5

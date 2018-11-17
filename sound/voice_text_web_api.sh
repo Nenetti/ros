@@ -7,7 +7,7 @@ TEXT=$*
 
 curl "https://api.voicetext.jp/v1/tts" \
      -o "voice.wav" \
-     -u "n6lz1e96uwetsyn4:" \
+     -u "$TextWebAPI_Key:" \
      -d "text=$TEXT" \
      -d "speaker=hikari" \
      -d "emotion=happiness" \

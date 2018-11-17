@@ -6,6 +6,36 @@ sound.julius.dir	ros/sound/julius
 julius.dictionary.dir	ros/sound/julius/dictionary
 sound.se.dir	ros/sound/SE
 	
+status.fxml.dir	ros/status.fxml
+Speaker_ON	speaker_on.png
+Speaker_OFF	speaker_off.png
+Mic_ON	mic_on.png
+Mic_OFF	mic_off.png
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

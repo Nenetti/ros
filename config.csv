@@ -7,14 +7,14 @@ julius.dictionary.dir	ros/sound/julius/dictionary
 sound.se.dir	ros/sound/SE
 	
 status.fxml.dir	ros/status.fxml
-Speaker_ON	speaker_on.png
-Speaker_OFF	speaker_off.png
-Mic_ON	mic_on.png
-Mic_OFF	mic_off.png
+speaker.on	speaker_on.png
+speaker.off	speaker_off.png
+mic.on	mic_on.png
+mic.off	mic_off.png
 	
-	
-	
-	
+duck.normal	duck_normal.png
+duck.move	duck_move.png
+duck.success	duck_success.png
 	
 	
 	

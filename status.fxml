@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -21,28 +19,20 @@
       </AnchorPane>
       <AnchorPane layoutX="20.0" layoutY="110.0" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #dddddd;">
          <children>
-            <ImageView fx:id="Robot_Image" fitHeight="500.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@image/front_Duck.png" />
-               </image>
-            </ImageView>
+            <ImageView fx:id="Robot_Image" fitHeight="500.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="400.0" layoutY="20.0" prefHeight="200.0" prefWidth="200.0">
          <children>
             <Circle centerX="125.0" centerY="125.0" fill="WHITE" radius="125.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="10.0" />
-            <ImageView fx:id="Sound_Image" fitHeight="200.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@image/speaker_on_3.png" />
-               </image>
-            </ImageView>
+            <ImageView fx:id="Sound_Image" fitHeight="200.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="640.0" layoutY="400.0" prefHeight="301.0" prefWidth="550.0" style="-fx-background-color: #DDDDDD;">
          <children>
             <Label fx:id="Sub_Label" layoutX="50.0" prefHeight="300.0" prefWidth="500.0" text="テスト" wrapText="true">
                <font>
-                  <Font size="40.0" />
+                  <Font size="32.0" />
                </font>
             </Label>
          </children>
